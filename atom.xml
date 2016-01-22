@@ -4,28 +4,15 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-01-18T11:02:55.000Z</updated>
+  <updated>2016-01-18T10:42:30.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name><![CDATA[John Doe]]></name>
+    <name><![CDATA[Jile]]></name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title><![CDATA[hello world.hexo]]></title>
-    <link href="http://yoursite.com/2016/01/18/hello-world-hexo/"/>
-    <id>http://yoursite.com/2016/01/18/hello-world-hexo/</id>
-    <published>2016-01-18T11:02:55.000Z</published>
-    <updated>2016-01-18T11:02:55.000Z</updated>
-    <content type="html"></content>
-    <summary type="html">
-    
-    </summary>
-    
-  </entry>
   
   <entry>
     <title><![CDATA[Hello World]]></title>
