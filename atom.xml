@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-04-04T13:12:42.000Z</updated>
+  <updated>2016-04-09T16:03:23.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,29 +16,41 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2016/04/04/hello-world/"/>
-    <id>http://yoursite.com/2016/04/04/hello-world/</id>
-    <published>2016-04-04T13:12:42.000Z</published>
-    <updated>2016-04-04T13:12:42.000Z</updated>
+    <title>QR二维码图片判别</title>
+    <link href="http://yoursite.com/2016/04/05/qr-code-img-discriminate/"/>
+    <id>http://yoursite.com/2016/04/05/qr-code-img-discriminate/</id>
+    <published>2016-04-04T16:59:50.000Z</published>
+    <updated>2016-04-09T16:03:23.000Z</updated>
     
-    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;http://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;http://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/QR%E7%A2%BC&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;QR二维码图片&lt;/a&gt;判别指的是，给定一幅图片，判定这幅图片中是否包含二维码图片。比如下图两张图片，都属于&lt;strong&gt;包含二维码的图片&lt;/strong&gt;。&lt;/p&gt;
+&lt;figure class=&quot;half&quot;&gt;&lt;br&gt;    &lt;img src=&quot;http://7xqgy6.com1.z0.glb.clouddn.com/qr_img9.jpeg&quot;&gt;&lt;br&gt;    &lt;img src=&quot;http://7xqgy6.com1.z0.glb.clouddn.com/qr_img13.png&quot;&gt;&lt;br&gt;&lt;/figure&gt;
+
+&lt;p&gt;区别于二维码图片识别，我们并不需要解码其中的信息。目前有许多二维码识别的开源项目，其中最著名的是&lt;a href=&quot;https://github.com/zxing/zxing&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;zxing&lt;/a&gt;。一个自然的想法是，通过二维码识别来达到二维码判别的目的。拿zxing作为例子，输入一张图片，如果zxing能够正确识别该图片，那么这幅图片显然就是包含二维码的图片，否则就不是。这并不是一个很好的解决方案，原因有二：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;我们并不需要识别出二维码的内容&lt;/li&gt;
+&lt;li&gt;对于一副不止包含二维码的图片，如上面的第二张图，识别率并不高&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;因此我们需要更高效的解决方案。&lt;/p&gt;
+&lt;h2 id=&quot;解决思路&quot;&gt;&lt;a href=&quot;#解决思路&quot; class=&quot;headerlink&quot; title=&quot;解决思路&quot;&gt;&lt;/a&gt;解决思路&lt;/h2&gt;&lt;p&gt;为了解决这个问题，我们来研究QR二维码的特点。&lt;a href=&quot;https://zh.wikipedia.org/wiki/QR%E7%A2%BC&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;维基&lt;/a&gt;里是这么描述QR二维码的：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;QR码呈正方形，常见的是黑白两色。在3个角落，印有较小，像“回”字的正方图案。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;其中像“回”字的正方图案即三个定位标记，这篇&lt;a href=&quot;http://coolshell.cn/articles/10590.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;博客&lt;/a&gt;详细地介绍了这个定位标记的特点，如下图，&lt;/p&gt;
+&lt;figure&gt;&lt;br&gt;    &lt;img src=&quot;http://coolshell.cn//wp-content/uploads/2013/10/finder.png&quot;&gt;&lt;br&gt;&lt;/figure&gt; 
+
+&lt;p&gt;当然，由于每幅图像中的二维码大小不一，定位标记的像素一般不会是图中标记的数值，但是这个比例一般是正确的。因此我们通常会扫描连续像素的比例，如果连续几行(列)出现了1:1:3:1:1这样的比例，那么我们就找到了一个定位标记。因为定位标记在矩形的三个角上，所以一幅图片的定位标记构成一个”L”形，所以如果一幅图片包含成L形的三个定位标记，那么这幅图片包含二维码。有了这个思路，我们就可以开始写代码实现二维码判别了。&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;http://hexo.io
+      &lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/QR%E7%A2%BC&quot; target=&quot;_b
     
     </summary>
     
+      <category term="image" scheme="http://yoursite.com/categories/image/"/>
+    
+    
+      <category term="QR二维码 判别" scheme="http://yoursite.com/tags/QR%E4%BA%8C%E7%BB%B4%E7%A0%81-%E5%88%A4%E5%88%AB/"/>
     
   </entry>
   
