@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-04-09T16:03:23.000Z</updated>
+  <updated>2016-04-09T16:12:10.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/04/05/qr-code-img-discriminate/"/>
     <id>http://yoursite.com/2016/04/05/qr-code-img-discriminate/</id>
     <published>2016-04-04T16:59:50.000Z</published>
-    <updated>2016-04-09T16:03:23.000Z</updated>
+    <updated>2016-04-09T16:12:10.000Z</updated>
     
     <content type="html">&lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/QR%E7%A2%BC&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;QR二维码图片&lt;/a&gt;判别指的是，给定一幅图片，判定这幅图片中是否包含二维码图片。比如下图两张图片，都属于&lt;strong&gt;包含二维码的图片&lt;/strong&gt;。&lt;/p&gt;
 &lt;figure class=&quot;half&quot;&gt;&lt;br&gt;    &lt;img src=&quot;http://7xqgy6.com1.z0.glb.clouddn.com/qr_img9.jpeg&quot;&gt;&lt;br&gt;    &lt;img src=&quot;http://7xqgy6.com1.z0.glb.clouddn.com/qr_img13.png&quot;&gt;&lt;br&gt;&lt;/figure&gt;
@@ -28,7 +28,7 @@
 &lt;p&gt;区别于二维码图片识别，我们并不需要解码其中的信息。目前有许多二维码识别的开源项目，其中最著名的是&lt;a href=&quot;https://github.com/zxing/zxing&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;zxing&lt;/a&gt;。一个自然的想法是，通过二维码识别来达到二维码判别的目的。拿zxing作为例子，输入一张图片，如果zxing能够正确识别该图片，那么这幅图片显然就是包含二维码的图片，否则就不是。这并不是一个很好的解决方案，原因有二：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;我们并不需要识别出二维码的内容&lt;/li&gt;
-&lt;li&gt;对于一副不止包含二维码的图片，如上面的第二张图，识别率并不高&lt;/li&gt;
+&lt;li&gt;对于一幅不止包含二维码的图片，如上面的第二张图，识别率并不高&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;因此我们需要更高效的解决方案。&lt;/p&gt;
 &lt;h2 id=&quot;解决思路&quot;&gt;&lt;a href=&quot;#解决思路&quot; class=&quot;headerlink&quot; title=&quot;解决思路&quot;&gt;&lt;/a&gt;解决思路&lt;/h2&gt;&lt;p&gt;为了解决这个问题，我们来研究QR二维码的特点。&lt;a href=&quot;https://zh.wikipedia.org/wiki/QR%E7%A2%BC&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;维基&lt;/a&gt;里是这么描述QR二维码的：&lt;/p&gt;
